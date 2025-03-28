@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/svv.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/svv", "dest": "/api/svv.js" }
+    ]
+  }
+  
